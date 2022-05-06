@@ -1,0 +1,157 @@
+body{
+	margin: 0;
+	font-size: 15px;
+	line-height: 1.6;
+	color: #1FFFD7;
+
+	background: url(fon.jpg) center no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+
+
+*,
+*:before,
+*:after { 
+	box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6{
+	margin: 0;
+}
+
+
+/*Сontainer*/
+.container{
+	width: 100%;
+	max-width: 1830px;
+	margin: 0 auto;
+}
+
+
+
+/*Header*/
+.header{
+	height: 100px;
+	margin-bottom: 10px;
+}
+
+.header__inner {
+	display: flex;
+	justify-content: space-between;
+	align-items: center; /*Выровняли по горизонтали*/ 
+}
+
+.header__logo{
+	margin-left: 120px;
+	font-size: 25px;
+	font-weight: 700;
+}
+ 
+/* Button */
+.btn {
+	margin-top: 15px;
+	display: inline-block;
+	vertical-align: top;
+	padding: 8px  30px ;
+
+	border: 2px  solid #00FFE0;
+	align-items: center;
+	font-size: 13px;
+	font-weight: 700;
+	color: #00FFE0;
+	text-transform: uppercase;
+	text-decoration: none; /*Убирает подчёркивание*/
+	transition: background 1.s linear, color .1s lenear;
+}
+
+.btn:hover {
+	background-color: #00FFE0;
+	color:#333 ; /*Меняем цвет наводки на кнопку*/
+}
+
+
+
+
+/*Sidebar-2*/
+.sidebar-1{
+	min-height: 700px;
+	width: 10%;
+	float: left;
+	padding-left: 35px;
+}
+
+.fot{
+	border-radius: 5%;
+}
+
+
+.opis{
+	width: 30%;
+	margin-top: 50px;
+	font-size: 14px;
+	color: #FFE70E;
+	text-transform: uppercase;
+}
+
+/*Sidebar-2*/
+.sidebar-2{
+	min-height: 700px;
+	width: 10%;
+	float: left;
+	padding-left: 50px;
+}
+
+.text{
+	font-size: 14px;
+	margin-left: -80px;
+	margin-top: 599px	;
+	text-transform: uppercase;
+}
+
+
+
+
+/*Content*/
+.content{
+	width: 80%;
+	float: left;
+	padding-left: 120px;
+}
+
+.nazv{
+
+}
+
+.anime__ru{
+	text-transform: uppercase;
+	color: #FFE70E;
+}
+
+.anime__ue{
+	margin-top: -10px;
+	margin-left: 20px;
+	text-transform: uppercase;
+}
+
+.anime__har{	
+	display: flex;
+	align-items: center; /*Выровняли по горизонтали*/ 
+	margin-top: -20px;
+	gap: 20px;
+}
+
+
+/*Player*/
+
+.player{
+	max-width: 1050px;
+	width: 100%;
+	border-radius: 30px;
+}
+
+.video{
+	max-width: 100%;
+	border-radius: 30px 30px 0 0;
+}
+
